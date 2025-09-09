@@ -3,7 +3,7 @@ class Pyramid:
         self.height = height
 
     def print_star_pyramid(self):
-        for i in range(1, self.height + 1):
+        for i in range(self.height + 1, 0, -1):
             print(" " * (self.height - i) + "*" * (2 * i - 1))
 
 
